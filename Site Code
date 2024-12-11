@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Consultancy Program</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+            background: #f4f4f4;
+            margin-bottom: 2rem;
+        }
+        .hero h2 {
+            margin-bottom: 1rem;
+            color: #444;
+        }
+        .hero p {
+            font-size: 1.1rem;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: space-between;
+        }
+        .feature {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            flex: 1 1 calc(33% - 2rem);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .feature h3 {
+            margin-top: 0;
+            color: #444;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #222;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta a:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MFM Artist Consultancy Program</h1>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Empower Your Artistry. Elevate Your Career.</h2>
+            <p>Our Artist Consultancy Program is designed to provide creative professionals like you with the tools, resources, and guidance to thrive in today's competitive market. Let us help you take the next step in your journey.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>1:1 Personalized Consultations</h3>
+                <p>Work directly with industry experts to define your goals and craft a roadmap for success.</p>
+            </div>
+            <div class="feature">
+                <h3>Exclusive Industry Insights</h3>
+                <p>Gain access to insider knowledge, trends, and opportunities tailored to your niche.</p>
+            </div>
+            <div class="feature">
+                <h3>Comprehensive Branding Support</h3>
+                <p>We help refine your personal brand and messaging to captivate your audience and partners.</p>
+            </div>
+        </section>
+
+        <div class="cta">
+            <a href="#">Join the Program Today</a>
+        </div>
+    </div>
+</body>
+</html>
